@@ -21,7 +21,6 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## Write a C program that illustrates two processes communicating using shared memory.
-
 `````
 //shm.c
 
@@ -120,12 +119,8 @@ if (shmdt(shared_memory) == -1)
 fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 } exit(EXIT_SUCCESS);
 }
-
-````
-
-
-
-## OUTPUT
+`````
+## output
 
 ![image](https://github.com/vinodhini-17/Linux-IPC-Shared-memory/assets/145742741/110ef7ad-cd4b-44a8-bbde-5c93c5bc8cda)
 
